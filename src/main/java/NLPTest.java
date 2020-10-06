@@ -17,10 +17,10 @@ public class NLPTest {
 
         ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
         configurationBuilder.setDebugEnabled(true);
-        configurationBuilder.setOAuthConsumerKey("s9zSnWPKb42yN7pFlzS8EQ5to");
-        configurationBuilder.setOAuthConsumerSecret("fl3HG321GerD1Pp0mVw2rp7x1HQ5Sj5fj8B0PchjgaAM96n64j");
-        configurationBuilder.setOAuthAccessToken("515510329-wM7upjWN6p9j2PnPgXM0KQc7O35jPtvQJ2grFfty");
-        configurationBuilder.setOAuthAccessTokenSecret("s1FqUNVM8NimSO2cexqoqQ7LhyP8mWPneJiFidWrvxB34");
+        configurationBuilder.setOAuthConsumerKey("xxxxxxxx");
+        configurationBuilder.setOAuthConsumerSecret("xxxxxxxx");
+        configurationBuilder.setOAuthAccessToken("xxxxxxxx-xxxxxxxx");
+        configurationBuilder.setOAuthAccessTokenSecret("xxxxxxxx");
 
         TwitterStream twitterStream = new TwitterStreamFactory(configurationBuilder.build()).getInstance();
 
